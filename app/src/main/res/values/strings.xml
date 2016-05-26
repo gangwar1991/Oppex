@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Oppex</string>
+
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="my_conversations_all_chats">All</string>
+    <string name="my_conversations_only_marked_with_star">Favourited</string>
+    <string name="my_conversations_only_not_read">Unread</string>
+    <string name="title_activity_browse_product">BrowseProduct</string>
+    <string name="Rs">\u20B9</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="help_contact">Help &amp; Contact Us</string>
+
+
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="search_result">Search Result!</string>
+    <string name="search_hint">Type and Search</string>
+    <string name="menu_search">Search</string>
+
+
+    <string name="text_string">The Website and the Service are provided to you subject to these Oppex Terms of Use (these Terms). For the purpose of the Terms and wherever the context so requires, the terms you and your shall mean any person who uses or accesses, whether through manual or automated means, the Website or the Service in any manner whatsoever including persons browsing the Website and its content, posting comments or any content or responding to any advertisements or content on the Website. By using the Service, you agree to comply with these Terms. Additionally, when using a portion of the Service, you agree to conform to any applicable posted guidelines for such Service, which may change or be updated from time to time at Oppex sole discretion. You</string>
+    <string name="about_srting">Oppex is the most popular online classifieds to sell and buy pre-owned products, reaching out to India remotest cities to use our website and app.\nJoin our Oppex family of Happy Users. It is simple!\nWant to sell something? Do it quickly, effectively and safely! Simply post an ad.
+</string>
+
+</resources>

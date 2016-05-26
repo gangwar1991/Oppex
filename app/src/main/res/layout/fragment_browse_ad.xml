@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.buildrepo.shopmoodz.fragment.BrowseAd">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_list"
+        android:divider="@null"
+        android:layout_margin="15dp"
+        android:dividerHeight="5dp">
+
+    </ListView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#3f443f</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="search_hint">#FF585958</color>
+    <color name="search_text">#FF2A2B2A</color>
+    <color name="tab_text_color">#FF585958</color>
+
+    <color name="button_background">#FF351774</color>
+    <color name="text_color">#FFB2DF50</color>
+    <color name="ad_gallery_background">#ff000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#FF1AA1E1</color>
+    <color name="orange">#ffe16b10</color>
+    <color name="green">#ff26e111</color>
+
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fe5f55"
+            android:id="@+id/shoppingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue Shopping"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#fff"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.0">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:textColor="#061c43"
+                android:id="@+id/itemTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Items : 0" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:textColor="#061c43"
+                    android:id="@+id/subTotalTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Subtotal"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:textColor="#061c43"
+                    android:gravity="right"
+                    android:id="@+id/rsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 0"
+                    android:layout_weight="1.0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:textColor="#a0a8b2"
+                    android:id="@+id/shippingTV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Shipping"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:textColor="#a0a8b2"
+                    android:gravity="right"
+                    android:id="@+id/freeTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Free"
+                    android:layout_weight="1.0" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65">
+
+            <Button
+                android:textColor="#ffffff"
+                android:id="@+id/checkoutBT"
+                android:background="@drawable/backgroung_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:text="CHECKOUT"
+                android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

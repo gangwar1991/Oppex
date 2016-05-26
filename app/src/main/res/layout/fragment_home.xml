@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="8dp"
+    tools:context="com.buildrepo.shopmoodz.fragment.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:id="@+id/submitAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/submit_ad"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:text="Sumbmit free ad"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse By Category"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:scrollbars="none" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleText"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="More"
+                android:id="@+id/more"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/button_background"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recycler_product"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:scrollbars="none" />
+
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/titleTV"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="More"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@color/button_background"/>
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/recycler_product1"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scrollbars="none" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/titleTV1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="More"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@color/button_background"/>
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/recycler_product2"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scrollbars="none" />
+
+
+            </LinearLayout>
+
+
+ </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
